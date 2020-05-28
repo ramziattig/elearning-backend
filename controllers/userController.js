@@ -6,6 +6,7 @@ const User = require('./../models/user');
 
 const app = express();
 
+// GET : welcome to userController 
 app.get('/', (req, res) => {
     res.status(200).send({ message: "Welcome to User Controller" })
 })
